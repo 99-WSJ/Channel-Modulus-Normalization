@@ -6,13 +6,13 @@ Channel Modulus Normalization for CNN Image Classification
 * Pytorch >= 1.4.0
 * torchvision
 
-## Data
+## Data(common datasets)
 * CIFAR10
 * CIFAR100
 * Tiny ImageNet
 * FaceScrubs
 * ImageNet1000
-```
+```python
 python data\dataLoader.py contains pre-processing before training on each data set
 ```
 
@@ -20,7 +20,7 @@ python data\dataLoader.py contains pre-processing before training on each data s
 ```
 python conf\config.py contains the configuration of each data set during the training process
 ```
-## Net
+## Net(common networks)
 * VGG16 
 * ResNet50 
 * DenseNet121 
